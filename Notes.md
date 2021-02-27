@@ -696,7 +696,61 @@ const styles = StyleSheet.create({
 
 ## Shadows
 
+```js
 
+<View> 
+style={{
+  backgroundColor: "dodgerblue",
+  width: 100,
+  height: 100,
+  shadowColor: "grey",
+  shadowOffset: {width: 0, height: 10},
+  shadowOpacity: 10,
+  shadowRadius: 10,
+  elevation:20,
+
+}}
+</View>
+```
+
+### Paddings & Margins
+
+👉 Padding is the space **inside the component**;
+👉 Margin is the space **around** the component
+```js
+<View> 
+  style={{
+     backgroundColor: "dodgerblue",
+      width: 100,
+      height: 100,
+      padding:20,
+      paddingHorizontal: 10,
+
+  }} 
+  </View>
+  >
+  <View style={{
+    backgroundColor: "gold",
+    width:50,
+    height:50,
+  }}
+  >
+  </View>
+
+}}
+</View>
+);
+}
+
+```
+
+## Styling Text 
+
+[Expo - Using Custom Fonts](https://docs.expo.io/guides/using-custom-fonts/)
+```js
+
+
+```
 ## FORMS Component
 
 [Formik](https://formik.org/)
